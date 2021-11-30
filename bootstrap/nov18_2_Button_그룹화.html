@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+
+        <div class="container">
+            <h2>button</h2>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">apple</button>
+                <button type="button" class="btn btn-primary">Samsung</button>
+                <button type="button" class="btn btn-primary">Sony</button>
+            </div>
+        </br>
+    </br>
+
+    <div class="btn-group-vertical btn=group-lg">
+        <button type="button" class="btn btn-success">apple</button>
+        <button type="button" class="btn btn-success">Samsung</button>
+        <button type="button" class="btn btn-success">Sony</button>
+    </div>
+</br>
+</br>
+
+<!--드롭다운 주기-->
+<div class="btn-group">
+<button type="button" class="btn btn-danger">apple</button>
+<button type="button" class="btn btn-danger">Samsung</button>
+<button
+    type="button"
+    class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+    data-toggle="dropdown">Sony</button>
+
+<div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Tablet</a>
+    <a class="dropdown-item" href="#">SmartPhone</a>
+    <a class="dropdown-item" href="#">Laptop</a>
+</div>
+</div>
+</br>
+</br>
+
+<!--드롭다운 분리 주기-->
+<div class="btn-group">
+    <button type="button" class="btn btn-warning">Pet</button>
+    <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"></button>
+
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Dog</a>
+            <a class="dropdown-item" href="#">Cat</a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

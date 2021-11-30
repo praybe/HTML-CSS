@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+       
+            .container { /*부모*/
+                width: 300px;
+                height: 300px;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-end;
+        
+                background-color: salmon;
+                }
+            
+            .item{ /*자식*/
+                background-color: gold;
+                border: 1px solid gray;
+            }
+        </style>
+    </head>
+    <body>
+        메인축 정렬
+        교차축 정렬
+        <div class="container">
+            <div class="item">안녕하세요.1</div>
+            <div class="item">안녕하세요.2</div>
+            <div class="item">안녕하세요.3</div>
+        </div>
+
+    </body>
+</html>
+
+
+<!--flex: 부모자식/ 메인축,교차축 
+flex wrap: nowrap 줄바꿈 안한. wrap 줄바꿈 하낟
+justify-content: center; 중앙정렬
+align이 교차축-->
