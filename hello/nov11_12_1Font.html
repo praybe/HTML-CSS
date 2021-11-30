@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>12-1 font-family</title>
+        <style>
+            div {
+                width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+                font-size: 1.5em;
+                font-style: oblique; /* 이탤릭체 줄때 */
+            }
+            div:nth-child(1) {
+                font-family: 'Frank in Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+/* font-family는 여러개를 나열 할  수 있다.
+없으면 시스템이 가지고 있는 디폴트를 뿌림 */
+
+            div:nth-child(2) {
+                font-family: MingLiU_HKSCS-ExtB;
+                font-weight: bold;
+            }
+            div:nth-child(3) {
+                font-family: MingLiU_HKSCS-ExtB;
+                font-size: 32px;
+                line-height: 50px;  /* 라인 간격, 중앙정렬시 자주씀 */
+              
+            }
+            div:nth-child(4) {
+                font-family: 'Bernard MT';
+                font-size: 2.0em;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz
+            abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz
+            abcdefghijklmnopqrstuvwxyz
+        </div>
+
+        <div>
+            abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz
+            abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz
+            abcdefghijklmnopqrstuvwxyz
+        </div>
+
+        <div>
+            abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz
+            abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz
+            abcdefghijklmnopqrstuvwxyz
+        </div>
+
+        <div>
+            abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz
+            abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz
+            abcdefghijklmnopqrstuvwxyz
+        </div>
+
+    </body>
+</html>

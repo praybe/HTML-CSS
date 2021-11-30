@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>홀리그램</title>
+
+        <style>
+            #header {
+                width: 500px;
+                background-color: violet;
+                border: 1px solid #808080;
+                text-align: center;
+            }
+
+            #wrap {
+                width: 500px;
+                background-color: thistle;
+                border: 2px solid #808080;
+                text-align: center;
+                overflow: hidden; 
+            /* 자식놈에 대해서 집나간 토기를 불러옴*/
+            }
+
+            #content {
+                width: 350px;
+                border: 1px solid red;
+                float: left;
+            }
+
+            #side_banner {
+              
+                border: 1px solid red;
+                float: left;
+            }
+
+            #footer{
+                clear: both;
+             /*클리어 보스란 더 이상 영향을 안 받겠다는 의미  */
+                width: 500px;
+                background-color: violet;
+                border: 3px solid #808080;
+                text-align: center;
+            }
+
+            }
+
+            .menu1{
+                color: darkturquoise;
+                font-weight: bold;
+            }
+            .menu2 .menu3 .menu4 .menu5{
+           
+                font-size: 20px;
+            }
+         
+      
+            
+        </style>
+
+    </head>
+
+    <body>
+        <!--  -->
+<div id="wrap">
+        <div id="header">
+            <h1>HEADER</h1>
+        </div>
+    </div>
+
+        <div id="wrap">
+            <div id="content">
+                <h1>CONTENT</h1>
+                <ul>
+                    <li class="menu1">menu1</li>
+                    <li class="menu2">menu2</li>
+                    <li class="menu3">menu3</li>
+                    <li class="menu4">menu4</li>
+                    <li class="menu5">menu5</li>
+                </ul>
+            </div>
+
+            <div id="side_banner">
+                <h1>BANNER</h1>
+                <a href="http://www.sba.seoul.kr%22" target="_blank">
+                    <img src="http://www.sba.seoul.kr/kr/images/footer/f_logo.png"></a>
+            </div>
+
+        </div>
+
+        <div id="footer">
+            <h1>FOOTER</h1>
+        </div>
+    
+    </body>
+
+</html>

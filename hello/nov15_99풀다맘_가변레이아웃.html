@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fluid Grid Layout</title>
+        <style>
+            @media screen and (max-width: 100%) {
+                #wrap {
+              
+                }
+            }
+
+            @media screen and (max-width:60%) {
+                #wrap {
+                   
+                }
+
+            }
+
+            @media screen and (max-width:30%) {
+                #wrap {
+                   
+                }
+            }
+            body {
+                width: 800px;
+                margin: 0 auto;
+            }
+            #head {
+                background-color: cornflowerblue;
+                height: 100px;
+                line-height: 100px;
+                color: ivory;
+                text-align: center;
+            }
+            #mid {
+                overflow: hidden;
+
+            }
+            #main {
+                background-color: gold;
+                float: left;
+                width: 500px;
+                height: 400px;
+            }
+            #side {
+                background-color: lightgreen;
+                float: left;
+                width: 300px;
+                height: 400px;
+            }
+            #footer {
+                background-color: indianred;
+                height: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrap">
+            <div id="head">
+                <h3>
+                    가변 그리드 레이아웃</h3>
+            </div>
+            <div id="mid">
+                <div id="main">본문</div>
+                <div id="side">사이드바</div>
+            </div>
+
+            <div id="footer">푸터</div>
+        </div>
+    </body>
+</html>

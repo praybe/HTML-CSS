@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11-1 margin 과 padding</title>
+    <!-- 공백 여백 주는 것 -->
+    <style>
+body{
+    margin:0;
+}
+
+        div{
+            width: 200px; height: 200px;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #content1{
+            background-color: red;
+        }
+        #content2{
+            background-color: green;
+            margin: 10px 10px 10px 10px;
+            /*자기 것이 줄어듬 */
+        }
+        #content3{
+            background-color: blue;
+            padding: 10px 10px 10px 10px;
+            /*자기 것이 늘어남 */
+        }
+        #content4{
+            background-color: yellow;
+            margin: 10px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+            /* 안쪽 바깥쪽 모두 증가 */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="content1"> 200*200 </div>
+    <div id="content2"> 200*200 <br /> margin </div>
+    <div id="content3"> 200*200 <br /> padding </div>
+    <div id="content4"> 200*200 <br /> margin <br /> padding</div>
+    </style>
+
+    
+</body>
+</html>
