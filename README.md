@@ -1,9 +1,9 @@
 # HTML-CSS
 >check [hello] folder <br>
->>적용한 실습: [Joandora](https://github.com/praybe/Project1_Joandora.git)
+>>적용한 실습:  [Joandora](https://github.com/praybe/Project1_Joandora.git) 
 <br/>
 
 # Bootstrap
 >check [bootstrap] folder<br> 
->>적용한 실습: RSPgame
+>>적용한 실습: [RSPgame](https://github.com/praybe/Project2_RSPgame.git)
 <br/>
