@@ -1,6 +1,6 @@
 # HTML-CSS
 >check [hello] folder <br>
->>적용한 실습: Joandora: https://github.com/praybe/Project1_Joandora.git
+>>적용한 실습: [Joandora](https://github.com/praybe/Project1_Joandora.git)
 <br/>
 
 # Bootstrap
