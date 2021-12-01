@@ -1,6 +1,6 @@
 # HTML-CSS
 >check [hello] folder <br>
->+적용한 실습: Joandora 
+>>적용한 실습: Joandora 
 <br/>
 
 # Bootstrap
