@@ -5,6 +5,6 @@
 <br/>
 
 > ### Bootstrap
->> check [bootstrap] folder<br>
+>> check [bootstrap](https://github.com/praybe/HTML-CSS-Bootstrap/tree/main/bootstrap) folder<br>
 >>적용한 실습:  [Joandora](https://github.com/praybe/Project1_Joandora.git) 
 <br/>
