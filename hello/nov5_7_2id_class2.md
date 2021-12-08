@@ -108,6 +108,7 @@
 </html>
 ```
 
-![출력화면](.private/image/id class html.png)
-
+<p align="center">
+<img src="https://github.com/praybe/private/blob/main/image/id%20class%20html.png" widht="80%" height="80%">
+</p>
 
