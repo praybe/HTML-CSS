@@ -14,7 +14,7 @@
 >>> * [Absolute](https://github.com/praybe/HTML-CSS-Bootstrap/blob/main/hello/nov12_12_4Absolute.html) / [Relative](https://github.com/praybe/HTML-CSS-Bootstrap/blob/main/hello/nov12_12_5Relative.html) / [Zindex](https://github.com/praybe/HTML-CSS-Bootstrap/blob/main/hello/nov12_12_6Zindex.html)  / [Float](https://github.com/praybe/HTML-CSS-Bootstrap/blob/main/hello/nov12_13_1Float.html) / [OverflowHidden](https://github.com/praybe/HTML-CSS-Bootstrap/blob/main/hello/nov12_13_2OverflowHidden.html) / [11월 12일 실습: 레이아웃 Basic](https://github.com/praybe/HTML-CSS-Bootstrap/blob/main/hello/nov12_99%20%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83Basic.html)  / [11월 12일 답]
 >>> * [media 규칙](https://github.com/praybe/HTML-CSS-Bootstrap/blob/main/hello/nov15_26_3media%EA%B7%9C%EC%B9%99.html) / [11월 15일 실습:반응형](https://github.com/praybe/HTML-CSS-Bootstrap/blob/main/hello/nov15_99%EB%B0%98%EC%9D%91%ED%98%95.html) / [11월 15일 실습:가변레이아웃] / [11월 15일 답]
 >>> 
->> 제 [블로그](https://praybe.tistory.com/category/HTML%20%26%20CSS)에 오시면 참고자료들도 있습니다. 
+>> [참고](https://praybe.tistory.com/category/HTML%20%26%20CSS) 
 
 <br/>
 
