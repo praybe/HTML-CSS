@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -84,6 +85,9 @@
                 </ul>
             </div>
 
+            
+            
+            
             <div id="side_banner">
 
                 <h1>BANNER</h1>
@@ -102,3 +106,4 @@
     </body>
 
 </html>
+```
