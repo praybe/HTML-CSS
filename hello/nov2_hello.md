@@ -1,3 +1,8 @@
+<p align="center">
+<img src="https://github.com/praybe/private/blob/main/image/hello%20html%201.png" width="100%" height="100%">
+</p>
+
+```html
 <!DOCTYPE html>
 <head>
     <title>게이버</title>
@@ -47,3 +52,4 @@
 
 </body>
 </html>
+```
