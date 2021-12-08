@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/praybe/private/blob/main/image/hello%20html%201.png" width="100%" height="100%">
+<img src="https://github.com/praybe/private/blob/main/image/hello%20html%201.png" width="80%" height="80%">
 </p>
 
 ```html
