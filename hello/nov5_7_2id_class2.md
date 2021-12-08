@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>홀리그램2</title>
+        <title>홀리그레일 2</title>
 
         <style>
             * {
